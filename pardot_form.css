@@ -1,0 +1,91 @@
+.form_holder form {
+    text-align: left;
+}
+#pardot-form { padding: 0; margin: 0; }
+#pardot-form .form-field {
+    float: left;
+    background: #FFF;
+    padding: 20px 25px 20px 115px;
+    vertical-align: top;
+    position: relative;
+    width: calc(33% - 5px);
+    color: #676A6B;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#pardot-form .form-field:first-child { border-left: 15px solid #EC2072; padding-left: 100px; }
+#pardot-form p label { position: absolute; left: 25px; top: 0; width: 90px; line-height: 70px; }
+#pardot-form .form-field:first-child label { left: 10px; }
+#pardot-form input[type="text"], #pardot-form input[type="email"], #pardot-form input[type="tel"], #pardot-form select {
+    border: none;
+	font-family: ff-meta-web-pro, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+    width: 100%;
+    outline: none;
+    color: #000;
+}
+#pardot-form .capacity { width: calc(66% - 5px); }
+#pardot-form select { 
+    color: #515151;
+    background: url("images/arrowdown.png") no-repeat 100% 8px;
+    width: 100%;
+}
+#pardot-form p.submit {
+    text-align: center;
+}
+#pardot-form input[type="submit"] {
+    color: #FFF;
+    background: #EC2072;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: normal;
+	font-size: 18px;
+	padding: 5px 55px;
+	display: inline-block;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 240px;
+}
+#pardot-form input[type="submit"]:hover {
+    background: #0284EC;
+}
+#pardot-form p.error::after {
+    content: '!';
+    font-size: 18px;
+	line-height: 30px;
+	color: #FFF;
+	font-weight: 600;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: red;
+	padding: 0 6px;
+}
+.thankyou {
+    font-size: 30px;
+    text-align: center;
+}
+@media all and (max-width: 670px) {
+    #pardot-form .form-field {
+        width: 100%;
+        margin-right: 0;
+        font-size: 16px;
+        padding: 15px 20px 15px 100px;
+    }
+    #pardot-form .form-field:first-child {
+        border-left-width: 10px;
+        padding-left: 90px;
+    }
+    #pardot-form p label { left: 20px; line-height: 60px; }
+    #pardot-form .form-field:first-child label { left: 10px; }
+    #pardot-form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,124 @@
+
+/*//////////////////////////////////////////////////////////////////
+[ S-Text 0 - 15 ]*/
+.s1-txt1 {
+  font-family: Barlow-Regular;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1;
+}
+
+.s1-txt2 {
+  font-family: Barlow-Regular;
+  font-size: 15px;
+  color: #846add;
+  line-height: 1.4;
+}
+
+.s1-txt3 {
+  font-family: Barlow-Regular;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.s1-txt4 {
+  font-family: Barlow-Regular;
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.5;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ M-Text 16 - 25 ]*/
+.m1-txt1 {
+  font-family: Barlow-Bold;
+  font-size: 25px;
+  color: #999999;
+  line-height: 1.2;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ L-Text >= 26 ]*/
+.l1-txt1 {
+  font-family: Barlow-Medium;
+  font-size: 40px;
+  line-height: 1;
+  color: #fff;
+}
+
+
+/*==================================================================
+   SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
+==================================================================*/
+/*//////////////////////////////////////////////////////////////////
+[ Size ]*/
+.size1 {
+  width: 100%;
+  min-height: 100vh;
+}
+.size2 {
+  width: 90px;
+  height: 100px;
+}
+.size3 {
+  min-width: 120px;
+  height: 40px;
+}
+/*//////////////////////////////////////////////////////////////////
+[ Width ]*/
+.wsize1 {
+  max-width: 100%;
+  width: 880px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Height ]*/
+.hsize1 {
+  min-height: 130px;
+}
+
+.how-countdown {
+  background-color: #333333;
+  border-radius: 10px;
+  margin: 0px 18px 25px 18px;
+}
+
+.wsize2.flex-w.flex-c.hsize1.cd100 {
+    position: relative;
+    top: -125px;
+}
+
+@media (max-width: 990px) {
+    
+    .wsize2.flex-w.flex-c.hsize1.cd100 {
+    position: relative;
+    top: 0px;
+    }
+}
+
+@media (max-width: 615px) {
+    
+    .wsize2.flex-w.flex-c.hsize1.cd100 {
+    position: relative;
+    top: 0px;
+    }
+    .size2 {
+    width: 75px;
+    height: 75px;
+    }
+    .flex-c {
+    justify-content: center;
+    }
+}
+
+@media (max-width: 615px) {
+
+    .how-countdown {
+    border-radius: 0px;
+    margin: 0px 5px 5px 5px;
+   }
+   .flex-c {
+    justify-content: center;
+    }
+}
